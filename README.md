@@ -12,9 +12,9 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 
 ## Projects List
 
-[Basic HTML Website](https://roadmap.sh/projects/basic-html-website), [Personal Portfolio](https://roadmap.sh/projects/portfolio-website),\
+[](https://roadmap.sh/projects/basic-html-website), [Personal Portfolio](https://roadmap.sh/projects/portfolio-website),\
 [Changelog Component](https://roadmap.sh/projects/changelog-component), [Testimonial Cards](https://roadmap.sh/projects/testimonial-cards),\
 
 Click any of the links below to view the live demo of the project.
 
-[Single-Page-CV](https://github.com/Bontlogile/Front-End Projects/01-singe-page-cv)
+[Single-Page-CV](https://github.com/Bontlogile/Front-End Projects/01-Single-Page-CV)
