@@ -8,4 +8,4 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 
 Click any of the links below to view the live demo of the project.
 
-[Single-Page-CV](https://github.com/Bontlogile/Front-End-Projects/01-Single-Page-CV)
+[Single-Page-CV](https://bontlogile.github.io/Roadmap-Projects/Front-End-Projects/01-Single-Page-CV/)
