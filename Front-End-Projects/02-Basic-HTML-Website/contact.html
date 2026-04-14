@@ -3,35 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Contact Us | Get Help with Your HTML Structure</title>
+    <meta
+      name="description"
+      content="Have questions about semantic HTML tags? Reach out to our team for support and guidance on your web development journey."
+    />
   </head>
   <body>
-    <nav>
-      <div>
-        <a href="/Front-End-Projects/02-Basic-HTML-Website/index.html"
-          >Bontlogile</a
-        >
-      </div>
-      <ul>
-        <li>
+    <header>
+      <nav>
+        <div>
           <a href="/Front-End-Projects/02-Basic-HTML-Website/index.html"
-            >Home</a
+            >Bontlogile</a
           >
-        </li>
-        <li>
-          <a href="/Front-End-Projects/02-Basic-HTML-Website/projects.html"
-            >Projects</a
-          >
-        </li>
-        <li>
-          <a href="/Front-End-Projects/02-Basic-HTML-Website/articles.html"
-            >Articles</a
-          >
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
-    </nav>
+        </div>
+        <ul>
+          <li>
+            <a href="/Front-End-Projects/02-Basic-HTML-Website/index.html"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="/Front-End-Projects/02-Basic-HTML-Website/projects.html"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a href="/Front-End-Projects/02-Basic-HTML-Website/articles.html"
+              >Articles</a
+            >
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Contact Us</h1>
+        <p>Have a question about HTML structure? Send us a message below.</p>
+
+        <form action="#" method="post">
+          <div>
+            <label for="name">Full Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="user_name"
+              placeholder="Your Name"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="email">Email Address:</label>
+            <input
+              type="email"
+              id="email"
+              name="user_email"
+              placeholder="email@example.com"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="subject">Reason for Contact:</label>
+            <select id="subject" name="subject">
+              <option value="general">General Inquiry</option>
+              <option value="project">Project Request</option>
+              <option value="bug">Report a Bug</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="user_message"
+              rows="5"
+              placeholder="How can we help you?"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>

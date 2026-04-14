@@ -6,7 +6,7 @@ Respository: https://github.com/Bontlogile/Roadmap-Projects.git
 
 ## Projects List
 
-[Single-Page CV](https://roadmap.sh/projects/single-page-cv), [Basic HTML Website]()
+[Single-Page CV](https://roadmap.sh/projects/single-page-cv), [Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
 
 Click any of the links below to view the live demo of the project.
 
